@@ -1,0 +1,7 @@
+services:
+  server:
+    image: tilifofo/hello-app
+    ports:
+      - 5050:5000
+  mongodb:
+    image: mongo
