@@ -23,6 +23,6 @@ services:
     volumes:
       - ./client/src/:/app/src/
     environment:
-      - WDS_SOCKET_HOST=127.0.0.1
+      - WDS_SOCKET_HOST= 8080
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true=value
